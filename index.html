@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    
+    <style>
+        body {
+            position: relative; 
+            
+        }
+       
+        </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">  
+        <img src="image/2bfb253d5fa061d77ef12386c94720be.jpg" style="width: 100px; height: 80px ;">
+        <a href="#" class="navbar-brand text-light pl-2" style="font-size: 25px; padding-right: 10px; border-right: 1px solid white;"  >
+          cook
+       </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item active pl-5">
+              <a class="nav-link" href="#">home </a>
+            </li>
+            <li class="nav-item pl-5">
+              <a class="nav-link" href="#">about</a>
+            </li>
+           <li class="nav-item dropdown pl-5">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              pages
+              </a>   
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Burger</a></li>
+                <li><a class="dropdown-item" href="#">Pasta</a></li>
+                <li><a class="dropdown-item" href="#">Pizza</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">Burger</a></li>
+                <li><a class="dropdown-item" href="#">Pasta</a></li>
+                <li><a class="dropdown-item" href="#">Pizza</a></li>
+              </ul>
+            </li>
+          </li>
+          <li class="nav-item pl-5">
+            <a class="nav-link" href="#">blog</a>
+          </li> 
+          <li class="nav-item pl-5">
+            <a class="nav-link" href="#">contant </a>
+          </li>
+          <div class="input-group mb-3 pl-5">
+            <input class="form-control me-3 " type="text" placeholder="Search" id="usr" name="Search">
+            <div class="input-group-append">
+              <span class="input-group-text "><a href="#"> <i class="fas fa-search"></i></a></span>
+            </div><!-- input-group-append -->
+            <!-- <button type="button" class="close btn-outline-light me-2">&times;</button> -->
+          </div><!--input-group -->
+          <div class="b bg-secondary pl-5">
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Login</button>
+   
+           <!--  style="width: 40px; height: 38px;" -->
+             
+        </div><!-- bt -->
+        </ul><!-- navbar-nav -->
+        </div>  <!-- collapse -->
+     
+          
+        </nav><!-- navbar  -->
+      
+     <!--  <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px"></div>
+       -->
+       <!-- ////////////////////////////////////////////////////////////////////////////////////////////////// -->
+       <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/IMG-20230214-WA0104.jpg" alt="Los Angeles" style="height: 88vh; width: 100%;">
+            <div class="carousel-caption">
+              <h3>Resturant</h3>
+              <p style="font-size: 30px;">Try something better with us</p>
+              <button type="button" class="btn btn-light">Show More</button>
+            </div>
+          </div><!-- carousel-item -->
+          <div class="carousel-item">
+            <img src="image/IMG-20230214-WA0103.jpg" alt="Chicago" style="height: 88vh; width: 100%;">
+            <div class="carousel-caption">
+              <h3>Resturant</h3>
+              <p style="font-size: 30px;">Try something better with us</p>
+              <button type="button" class="btn btn-light">Show More</button>
+            </div>
+          </div><!-- carousel-item -->
+          <div class="carousel-item">
+            <img src="image/IMG-20230214-WA0125.jpg" alt="New York" style="height: 88vh; width: 100%;">
+            <div class="carousel-caption">
+              <h3>Resturant</h3>
+              <p style="font-size: 30px;">Try something better with us</p>
+              <button type="button" class="btn btn-light">Show More</button>
+            </div>
+          </div><!-- carousel-item -->
+        </div><!-- carousel-inner -->
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div><!-- carousel slide -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////// -->
+   <div class=" pl-5" style="width: 100%; height: 200px; background-color: rgba(0, 0, 0, 0.099);">
+    <br><br>
+           <h2 > Welcome</h2>
+           <p>Try something better with us</p>
+           <button type="button" class="btn btn-light">show more</button>
+   </div><!-- container -->
+    <hr class="bg-secondary">
+<!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+<div>
+  <div class="bg-secondary " style="height: 50px;">
+     <h2 class="text-center  " >Our Cooking Product</h2>
+  </div>
+<div id="accordion">
+  <div class="card">
+     <div class="card-header d-flex justify-content-between">
+       <p>Quality Product</p>
+       <a class="card-link" data-toggle="collapse" href="#collapseOne" >
+           <i class="fas fa-chevron-down"></i>
+       </a>
+     </div><!-- card-header -->
+     <div id="collapseOne" class="collapse" data-parent="#accordion">
+       <div class="card-body">
+          quam rem esse qui omnis quas maxime incidunt aliquid adipisci.
+       </div><!-- card-body -->
+     </div><!-- collapse -->
+   </div><!-- card -->
+ 
+   <div class="card">
+       <div class="card-header d-flex justify-content-between">
+         <p>Custom Product</p>
+         <a class="card-link" data-toggle="collapse" href="#collapseTwo" >
+             <i class="fas fa-chevron-down"></i>
+         </a>
+       </div><!-- card-header -->
+       <div id="collapseTwo" class="collapse" data-parent="#accordion">
+         <div class="card-body">
+            Aliquid aliquam quis, blanditiis cumque numquam delectus, dignissimos repudiandae quibusdam accusamus id, nostrum praesentium vitae porro facere.
+         </div><!-- card-body -->
+       </div><!-- collapse -->
+     </div><!-- card -->
+ 
+     <div class="card">
+       <div class="card-header d-flex justify-content-between">
+         <p>Home Delivery</p>
+         <a class="card-link" data-toggle="collapse" href="#collapseThree" >
+             <i class="fas fa-chevron-down"></i>
+         </a>
+       </div><!-- card-header -->
+       <div id="collapseThree" class="collapse" data-parent="#accordion">
+         <div class="card-body">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, non! Accusantium dolorum doloribus aut consequuntur temporibus illo
+         </div><!-- card-body -->
+       </div><!-- collapse -->
+     </div><!-- card -->
+
+ </div> <!-- accordion -->
+</div>
+ <hr class="bg-secondary">
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////// -->
+<div style=" background-color: rgba(169, 169, 169, 0.099);" >
+    <div class="bg-secondary " style="height: 50px;">
+      <h2 class="text-center  " >Our  Product</h2>
+    </div><!-- h2 -->
+    <div class="media pl-3">
+      <img src="image/20210127212838109.jpg" class="align-self-start mr-3 rounded-circle" style="width:150px; height: 150px;">
+      <div class="media-body pl-2 pt-3">
+        <h4>pasta</h4>
+        <p>You can see categories from
+          <a href="https://www.lazezh.com/tag/%D8%A7%D9%83%D9%84%D8%A7%D8%AA-%D9%85%D8%B7%D8%A7%D8%B9%D9%85"
+          style="text-decoration: underline; color: rgb(96, 63, 129);">
+            show more
+          </a>
+        </p>
+       
+        <br>
+        <button type="button" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="copied!">copy</button>
+    
+      </div><!-- media-body -->
+     </div><!-- media -->
+     <pre>
+      <code style="color: #000000; font-size: 18px; overflow: hidden;" id="mypython" >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </code>
+    </pre>
+    <hr>
+     
+        
+    
+     <div class="media pl-3" style="background-color: white;">
+      <img src="image/صورة-ساندوتش-برجر-لذيذ-مع-بطاطس-شهية-بجانبه-1024x683.jpg" class="align-self-start mr-3 rounded-circle" style="width:150px; height: 150px;">
+      <div class="media-body pl-2 pt-3">
+        <h4>Burger</h4>
+        <p>You can see categories from
+          <a href="https://minceburgers.com/"
+          style="text-decoration: underline; color: rgb(96, 63, 129);">
+            show more
+          </a>
+        </p>
+       
+        <br>
+        <button type="button" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="copied!">copy</button>
+      </div><!-- media-body -->
+     </div><!-- media -->
+     <pre  style="background-color: white;">
+      <code style="color: #000000; font-size: 18px; " id="mypython" >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </code>
+    </pre>
+     
+     <hr>
+     <div class="media pl-3">
+      <img src="image/pizza-restaurants-in-Abu-Dhabi-C-22-11.ar11212020-1024x640.jpg" class="align-self-start mr-3 rounded-circle" style="width:150px; height: 150px;">
+      <div class="media-body pl-2 pt-3">
+        <h4>Pizza</h4>
+        <p>You can see categories from
+          <a href="https://www.thatrue.com/%D8%A7%D9%81%D8%B6%D9%84-%D9%85%D8%B7%D8%A7%D8%B9%D9%85-%D8%A8%D9%8A%D8%AA%D8%B2%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D8%AD%D8%A7%D8%A8/" 
+        style="text-decoration: underline; color: rgb(96, 63, 129);">
+          show more
+        </a>
+        </p>
+        
+        <br>
+         <button class="border-0 btn-white " data-toggle="tooltip"  data-placement="bottom" title="copied!" >copy</button>
+      </div><!-- media-body -->
+     </div><!-- media -->
+     <pre>
+      <code style="color: #000000; font-size: 18px; " id="mypython" >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </code>
+    </pre>
+     
+     <script>
+      $(document).onclick(function (){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+      </script>
+</div><!-- parent -->
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="fixedimg fixedimg1">
+</div>
+<hr>
+<!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+<h1 class="text-center text-light  p-3 m-0 bg-secondary" > Our Product</h1>
+  <div class="container-fluid" style=" background-color: rgba(169, 169, 169, 0.099);">
+    <div class="row justify-content-around " >
+   
+        <div class="card ima1 bg-secondary  col-lg-2 col-md-4 col-sm-6  m-1 mt-5 " style="width: 500px;">
+            <img  class="card-img-top " src="image/IMG-20230214-WA0098.jpg" alt=""width="200px" height="250px">
+            <div class="card-body ">
+                <h3 class="card-title">pasta</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <a href="#" class="btn btn-danger"  >add to cart</a>
+            </div>
+        </div><!-- card -->
+        <div class="card ima1 bg-secondary  col-lg-2 col-md-4 col-sm-6  m-1 mt-5 " style="width: 500px;">
+          <img  class="card-img-top " src="image/o1.jpg" alt=""width="200px" height="250px">
+          <div class="card-body ">
+              <h3 class="card-title">Burger</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <a href="#" class="btn btn-danger"  >add to cart</a>
+          </div>
+      </div><!-- card -->
+      <div class="card ima1 bg-secondary col-lg-2 col-md-4 col-sm-6   m-1 mt-5 pt-3" style="width: 500px;">
+        <img  class="card-img-top " src="image/IMG-20230214-WA0099.jpg" alt=""width="200px" height="250px">
+        <div class="card-bodyx">
+            <h3 class="card-title  mt-4">beef</h3>
+            <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <a href="#" class="btn btn-danger "  >add to cart</a>
+        </div>
+      </div><!-- card -->
+        <div class="card ima1 ml-2 bg-secondary col-lg-2 col-md-4 col-sm-6   m-1 mt-5" style="width:500px;">
+          <img  class="card-img-top " src="image/pizza-restaurants-in-Abu-Dhabi-C-22-11.ar11212020-1024x640.jpg" alt=""width="200px" height="250px">
+        <div class="card-body ">
+          <h3 class="card-title">Pizza</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <a href="#" class="btn btn-danger"  >add to cart</a>
+      </div>
+      </div><!-- card -->
+        <div class="card ima1  bg-secondary   col-lg-2 col-md-4 col-sm-6 m-1 mt-5 " style="width: 500px;">
+            <img  class="card-img-top" src="image/20210127212838109.jpg" alt="" width="200px" height="250px">
+            <div class="card-body ">
+                <h3 class="card-title">pasta</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <a href="#" class="btn btn-danger" >add to cart</a>
+            </div>
+        </div><!-- card -->
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////// -->
+
+   <!-- <div class=" d-flex justify-content-around  mt-5 "> -->
+  <div class="card ima1 bg-secondary col-lg-2 col-md-4 col-sm-6  m-1 mt-5" style="width: 500px;">
+      <img  class="card-img-top    " src="image/bg_2.png" alt=""width="200px" height="250px">
+      <div class="card-body ">
+          <h3 class="card-title">Pizza</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <a href="#" class="btn btn-danger"  >add to cart</a>
+      </div>
+  </div><!-- card -->
+  <div class="card ima1 bg-secondary col-lg-2 col-md-4 col-sm-6  m-1 mt-5 " style="width: 500px;">
+    <img  class="card-img-top " src="image/IMG-20230214-WA0101.jpg" alt=""width="200px" height="250px">
+    <div class="card-body ">
+        <h3 class="card-title">Pepper</h3>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <a href="#" class="btn btn-danger"  >add to cart</a>
+    </div>
+  </div><!-- card -->
+    </div>
+    </div>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="fixedimg fixedimg2">
+</div>
+<hr>
+<!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+<h1 class="text-center text-light  pt-3 m-0 bg-secondary" > Our Team</h1>
+<div class="container-fluid" style=" background-color: rgba(103, 100, 100, 0.099);">
+  <div class="row justify-content-center " >
+
+    
+    <div class="card text-light  bg-secondary m-3 mt-5" style="width: 290px;">
+      <img src="image/chef-8529260.jpg" class="card-img-top" height="255PX" style="width:288px; height: 300px;" ></a>
+      <div class="card-body">
+        <h5 class="card-title">chef</h5>
+        
+      </div>
+    </div>
+    
+    <div class="card text-light bg-secondary m-3 mt-5" style="width: 290px; ">
+      <img src="image/chef-cooking-pizza-oven-prepares-view-inside-81405157.jpg" class="card-img-top" height="255PX"  style="width:288px; height: 300px;" ></a>
+      <div class="card-body">
+        <h5 class="card-title">chef</h5>
+    
+      </div>
+    </div>
+    
+     
+     <div class="card text-light bg-secondary m-3 mt-5" style="width: 290px; ">
+      <img src="image/african-chef-delicious-attractive-young-pasta-dish-32896684.jpg" class="card-img-top"  height="255PX" style="width:288px; height: 300px; "></a>
+      <div class="card-body">
+        <h5 class="card-title">chef</h5>
+  
+      </div>
+    </div>
+
+  </div>
+</div>
+<hr>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+<h1 class="text-center text-light  p-3 m-0 bg-secondary " > Our Customers</h1>
+
+<div class="container-fluid" style=" background-color: rgba(169, 169, 169, 0.099);">
+    <div class="row justify-content-center">
+      <div class="card m-3 mt-5 bg-secondary " style="width: 280px;">
+        <div class="card-body text-light d-flex flex-column text-center">
+          <h6 class="card-title mb-4">Client Name </h6>
+          <img class=" mb-2" style="align-self: center; border-radius: 100%; width: 60px; " src="image/team-1.jpg">
+          <p class="card-text"> Tempor erat elitr rebum at clita. Diam dolor
+             diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit</p>
+        </div>
+      </div>
+      <div class="card m-3  mt-5 bg-secondary" style="width: 280px; ">
+        <div class="card-body text-light d-flex flex-column text-center">
+          <h6 class="card-title mb-4">Client Name </h6>
+          <img class=" mb-2" style="align-self: center;  border-radius: 100%; width: 60px; " src="image/team-2.jpg" >
+          <p class="card-text"> Tempor erat elitr rebum at clita. Diam dolor
+            diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit</p>
+        </div>
+      </div>
+      <div class="card m-3  mt-5 bg-secondary" style="width: 280px; ">
+        <div class="card-body text-light d-flex flex-column text-center">
+          <h6 class="card-title mb-4">Client Name </h6>
+          <img class=" mb-2" style="align-self: center;  border-radius: 100%; width: 60px; " src="image/team-3.jpg" >
+          <p class="card-text"> Tempor erat elitr rebum at clita. Diam dolor
+            diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit</p>
+        </div>
+      </div>
+      <div class="card m-3  mt-5 bg-secondary" style="width: 280px; ">
+        <div class="card-body text-light d-flex flex-column text-center">
+          <h6 class="card-title mb-4">Client Name</h6>
+          <img class=" mb-2" style="align-self: center;  border-radius: 100%; width: 60px; " src="image/team-4.jpg" >
+          <p class="card-text"> Tempor erat elitr rebum at clita. Diam dolor
+            diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div class="container-fluid  text-light footer mt-5 my-6 mb-0 py-5 wow fadeIn bg-secondary" >
+  <div class="container py-5">
+      <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Office Address</h4>
+              <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 555 99998</p>
+              <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+              
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Quick Links</h4>
+              <a class="btn btn-link" href="">About Us</a>
+              <a class="btn btn-link" href="">Contact Us</a>
+              <a class="btn btn-link" href="">Our Services</a>
+              <a class="btn btn-link" href="">Terms & Condition</a>
+              <a class="btn btn-link" href="">Support</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Quick Links</h4>
+              <a class="btn btn-link" href="">About Us</a>
+              <a class="btn btn-link" href="">Contact Us</a>
+              <a class="btn btn-link" href="">Our Services</a>
+              <a class="btn btn-link" href="">Terms & Condition</a>
+              <a class="btn btn-link" href="">Support</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Photo Gallery</h4>
+              <div class="row g-2">
+                  <div class="col-4">
+                      <img class="img-fluid bg-light rounded p-1" src="image/20210127212838109.jpg" alt="Image" >
+                  </div>
+                  <div class="col-4">
+                      <img class="img-fluid bg-light rounded p-1" src="image/IMG-20230214-WA0124.jpg" alt="Image" >
+                  </div>
+                  <div class="col-4">
+                      <img class="img-fluid bg-light rounded p-1" src="image/IMG-20230214-WA0101.jpg" alt="Image" >
+                  </div>
+                  <div class="col-4 pt-1">
+                      <img class="img-fluid bg-light rounded p-1" src="image/IMG-20230214-WA0101.jpg" alt="Image" >
+                  </div>
+                  <div class="col-4">
+                      <img class="img-fluid bg-light rounded p-1" src="image/20210127212838109.jpg" alt="Image" >
+                  </div>
+                  <div class="col-4">
+                      <img class="img-fluid bg-light rounded p-1" src="image/IMG-20230214-WA0124.jpg" alt="Image" >
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div><!-- modal-header -->
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="email" class="col-form-label">Email Address: </label>
+            <input type="email" class="form-control" placeholder="Enter email" id="email" >
+          </div><!-- form-group -->
+          <div class="form-group">
+            <label for="pwd">Password: </label>
+            <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+          </div><!-- form-group -->
+        </form>
+      </div><!-- modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-light">submit</button>
+      </div><!-- modal-footer -->
+    </div><!-- modal-content -->
+  </div><!-- modal-dialog -->
+</div><!-- modal -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+  </script>
+
+</body>
+</html>

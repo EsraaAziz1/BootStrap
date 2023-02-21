@@ -1,0 +1,39 @@
+
+.dropdown-menu li a {
+    text-shadow: 1px 1px 0px rgba(79, 136, 143, 0.263);
+    
+}
+
+.fixedimg{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+}
+
+.fixedimg1{
+    background-image: url(image/IMG-20230214-WA0100.jpg);
+}
+.fixedimg2{
+    background-image: url(image/IMG-20230214-WA0097.jpg);
+}
+
+
+.btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s;
+    color: white;
+    
+    
+}
+
+ .btn.btn-link::before {
+    position: relative;
+    margin-right: 10px;
+    font-weight: 900;
+}
